@@ -1,0 +1,132 @@
+// Другий блок
+.second {
+    background: url("../img/rectangle.jpg");
+    background-size: cover;
+    min-height: 685px;
+    color: #fff;
+    .why-us {
+        margin-top: 200px;
+        h2 {
+            font-size: 36px;
+            margin-bottom: 60px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.9;
+        }
+    }
+    .why-us-img {
+        img:first-child {
+            float: left;
+            margin-left: 65px;
+            margin-bottom: 5px;
+        }
+        img:last-child {
+            float: right;
+        }
+    }
+}
+.clearfix {
+    &:before,
+    &:after {
+        content: " ";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+//Низ другого блоку
+.third {
+    background: #333333;
+    padding: 100px 0;
+    h3 {
+        color: #e8e8e8;
+        font-size: 36px;
+        text-align: center;
+    }
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+
+//Третій блок
+.spain {
+    background: url("../img/rectangle_3_1.jpg") no-repeat;
+    background-size: cover;
+    min-height: 700px;
+    .spain-wrapper {
+        margin-top: 230px;
+        background: rgba(0, 0, 0, 0.6);
+        color: #e8e8e8;
+        padding: 50px 30px;
+        p {
+            line-height: 1.8;
+        }
+    }
+}
+.spain-second{
+    background: url("../img/rectangle_4_1.jpg") no-repeat;
+    background-size: cover;
+    min-height: 700px;
+    .spain-wrapper {
+        margin-top: 230px;
+        background: rgba(0, 0, 0, 0.6);
+        color: #e8e8e8;
+        padding: 50px 30px;
+        p {
+            line-height: 1.8;
+        }
+    }
+}
+
+// Пятий блок
+.tourists-say {
+    background: url("../img/rectangle_5_1.jpg") no-repeat;
+    background-size: cover;
+    min-height: 731px;
+    padding: 100px 0;
+    h2 {
+        text-align: center;
+        color: #fff;
+        font-size: 36px;
+        margin: 0 0 100px;
+    }
+    .quote-wrapper {
+        background: #333333;
+        width: 100%;
+        color: #fff;
+        .quote-img-wrapper {
+            display: inline-block;
+            vertical-align: top;
+            img {
+            }
+        }
+        .quote-info {
+            display: inline-block;
+            width: 50%;
+            padding: 26px;
+            span {
+                font-size: 70px;
+                line-height: 1;
+                color: #5474fd
+            }
+            .quote-author {
+                font-size: 20px;
+            }
+            .quote {
+                font-size: 16px;
+                color: #e8e8e8;
+                line-height: 1.6;
+                display: inline;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Aleo', sans-serif;
+    box-sizing: border-box;
+}
+
+.container_1 .container_2 .header-text  {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.col-6 {
+    width: 49%;
+    display: inline-block;
+}
+
+.col-4 {
+    width: 33.333%;
+    float: left;
+}
+
+
+.btn {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 50px;
+    padding: 23px 40px;
+    background: #496bfe;
+    background: -moz-linear-gradient(top, #496bfe 0%, #5474fd 100%);
+    background: -webkit-linear-gradient(top, #496bfe 0%,#5474fd 100%);
+    background: linear-gradient(to bottom, #496bfe 0%,#5474fd 100%);
+}
+
+// Перший блок
+.container_1{
+  background: url("../img/image_1.jpg");
+  height: 820px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.header-text{
+  position: absolute;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+h1, p{
+  text-align: center;
+  color: $main_white_color;
+}
+.header-text h1{
+	font-family: "JosefinSans-Bold", serif;
+	font-weight: bold;
+  text-transform: uppercase;
+}
+.header-text h1{
+	font-family: "Josefin", serif;
+	font-weight: bold;
+  text-transform: uppercase;
+}
+
+.style_search{
+  width: 500px;
+  height: 60px;
+  mix-blend-mode: undefined;
+  background-color: $main_white_color;
+  font-family: JosefinSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.86;
+  letter-spacing: 2.8px;
+  text-align: center;
+  color: #999999;
+
+}
+.button-search{
+  width: 150px;
+  height: 60px;
+  mix-blend-mode: undefined;
+  background-color: #5474fd;
+  border: solid 2px $main_white_color;
+  font-family: Aleo;
+  mix-blend-mode: undefined;
+  font-family: Aleo;
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 1.4px;
+  text-align: center;
+  color: $main_white_color;
+  text-transform: uppercase;
+}
+.scrol{
+  font-family: JosefinSans;
+  font-size: 11px;
+  opacity: 0.2;
+  margin-top: 115px;
+
+}
+.container_1_footer{
+  width: 1770px;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+  mix-blend-mode: undefined;
+  background-color: #5474fd;
+
+}
+
+.filter {
+	list-style: none;
+	text-align: center;
+  margin: 0;
+}
+.filter li{
+	display: inline-block;
+	text-decoration-color: $main_white_color;
+  text-transform: uppercase;
+	padding: 34px;
+}
+
+li.active{
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+}
